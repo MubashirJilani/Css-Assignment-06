@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    background-color: #e61b5e;
+    background-color: #e75787;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,6 +13,7 @@ body {
     flex-wrap: wrap;
     margin: 0px;
     padding: 0px;
+    height: 80px;
 }
 
 .delivery-bag img {
@@ -28,7 +29,7 @@ body {
 
 .sign-up-button {
     background-color: white;
-    color: #f51d3b;
+    color:  #e75787;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
@@ -36,14 +37,14 @@ body {
 }
 
 .sign-up-button:hover {
-    background-color: #f1a9c7;
+    background-color: #947984;
 }
 
 .food {
     border: 1px solid rgb(255, 253, 253);
-    box-shadow: 10px 10px 10px rgb(163, 159, 159);
+    box-shadow: 10px 10px 5px rgb(163, 159, 159);
     height: 60px;
-    background-color: #e6e1e3;
+    background-color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,7 +72,7 @@ body {
 .headings {
     margin: 160px 0px 0px 60px;
     font-size: 30px;
-    opacity: 0.7;
+    opacity: 0.6;
     display: flex;
 }
 
@@ -88,18 +89,18 @@ body {
 
 input {
     background-color: #f0f0f0;
-    border-color: #e6e1e3;
+    border-color: #e6e1e3 ;
     width: 500px;
     height: 52px;
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 15px 0px 0px 20px;
 }
 
 .find {
-    background-color: #f51d3b;
+    background-color:  #e75787;
     color: white;
     border: black;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 15px 15px;
     font-size: 20px;
     border-radius: 5px;
