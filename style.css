@@ -1,134 +1,267 @@
-body {
-    background-color: white;
-    margin: 0px;
-}
-
-.header {
-    background-color: #e75787;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 20px;
-    flex-wrap: wrap;
-    margin: 0px;
+body{
     padding: 0px;
-    height: 80px;
-}
-
-.delivery-bag img {
-    width: 50px;
+    margin: 0px;
+    width: 100%;
     height: auto;
 }
-
-.business-account {
-    text-align: center;
-    color: white;
-    font-size: 18px;
-}
-
-.sign-up-button {
-    background-color: white;
-    color:  #e75787;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-}
-
-.sign-up-button:hover {
-    background-color: #947984;
-}
-
-.food {
-    border: 1px solid rgb(255, 253, 253);
-    box-shadow: 10px 10px 5px rgb(163, 159, 159);
-    height: 60px;
-    background-color: #ffffff;
+.parent{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 800px;
-    padding: 20px;
-    flex-wrap: wrap;
-    margin: 0px;
-    padding: 0px;
-}
-
-.logo {
-    width: 50px;
-    height: auto;
-}
-
-.icons {
-    display: flex;
-    gap: 30px;
-}
-
-.icons:hover {
-    background-color: gray
-}
-
-.headings {
-    margin: 160px 0px 0px 60px;
-    font-size: 30px;
-    opacity: 0.6;
-    display: flex;
-}
-
-.search {
-    border: 1px solid #b1aaad;
-    background-color: white;
-    box-shadow: 3px 5px 5px #e6e1e3;
-    border-radius: 20px;
-    width: 700px;
-    height: 80px;
-    margin: 40px 0px 0px 60px;
     justify-content: space-between;
+    margin: 0px auto;
+    padding: 0px 0px;
+    border: 1px solid white;
+    box-shadow: 5px 5px 3px rgb(102, 100, 100);
+    height: 40px;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
 }
-
-input {
-    background-color: #f0f0f0;
-    border-color: #e6e1e3 ;
-    width: 500px;
-    height: 52px;
-    border-radius: 15px;
-    margin: 15px 0px 0px 20px;
+.logo img{
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: auto;
 }
-
-.find {
-    background-color:  #e75787;
+select{
+    font-family: "FontAwesome";
+    border: none;
+    width: 50px;
+    height: 45px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+select:hover{
+    background-color: rgb(104, 100, 100);
+}
+.cart {
+    border: none;
+    border-radius: 50%;
+    padding: 0px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.cart:hover{
+    background-color: rgb(94, 91, 91);
+}
+.log-in{
+    border: 1px solid palevioletred;
+    background-color: white;
+    border-radius: 5px;
+    color: palevioletred;
+    margin-right: 10px;
+    height: 40px;
+    width: 80px;
+    
+}
+.log-in:hover{
     color: white;
-    border: black;
-    border-radius: 20px;
-    padding: 15px 15px;
+    background-color: rgb(104, 102, 102);
+    padding: 15px 15px 15px 15px;
+    border: none;
+}
+.sign-in{
+    border: 1px solid palevioletred;
+    background-color: palevioletred;
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+    height: 40px;
+    width: 80px;
+}
+.sign-in:hover{
+    color: white;
+    background-color: rgb(104, 102, 102);
+    padding: 10px 10px 10px 10px;
+    border: none;
+}
+.container{
+    position: relative;
+    height: 500px;
+    background-color: #f7f7f7;
+}
+.picture{
+    position: absolute;
+    width: 40%;
+    margin-left: 60%;
+    background-image: url(https://images.deliveryhero.io/image/foodpanda/homepage/refresh-hero-home-pk.png);
+    height: 100vh;
+    max-height: 650px;
+    background-size: cover;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
+.search{
+    display: flex;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px rgb(124, 124, 124);
+    margin-top: 20px;
+}
+.find input{
+    width: 500px;
+    height: 40px;
+}
+.find{
+    position: relative;
+}
+.find button{
+    position: absolute;
+    left: 410px;
+    top: 13px;
+    width: 100px;
+    border: none;
+    background: none;
+    color: palevioletred;
+    font-size: 15px;
+    font-weight: 700;
+}
+.find button:hover{
+    color: rgb(121, 119, 119) ;
+}
+.food{
+    margin: 0px 20px;
+    padding: 10px 20px;
+    background-color: palevioletred;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+.food:hover{
+    background-color: rgb(121, 120, 120);
+}
+.desktop{
+    margin-top: 85px;
+}
+.box{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px rgb(97, 97, 97);
+    border-radius: 10px;
+    position: relative;
+    left: 90px;
+    bottom: 150px;
+    background-color: white;
+    padding: 0px 5px 0px 15px;
+}
+.started{
+    color: white;
+    background-color: palevioletred;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    height: 60px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.started:hover{
+    background-color: rgb(129, 129, 129);
+    width: 130px;
+}
+.text2{
+    margin: 0px 0px 0px 40px;
+}
+.country{
+    margin: 0px 0px 30px 40px;
+}
+.karachi{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+}
+.lahore{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 1920px;
+}
+.islamabad{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    height: auto;
+    max-width: 1920px;
+}
+.karachi button{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    background-color: white;
     font-size: 20px;
     border-radius: 5px;
-    margin: 10px 0px 0px 20px;
+    max-width: 1920;
 }
-
-.find:hover {
-    background-color: #4e494b;
+.lahore button{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 5px;
 }
-
-.image {
-    margin: 0px 0px 0px 680px;
-    padding: 0px;
+.islamabad button{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 5px;
 }
-
-.lahore {
-    margin: 160px 0px 0px 40px;
-    font-size: 22px;
-    display: flex;
-}
-
-.karachi {
-    margin: 60px 0px 0px 40px;
-    font-size: 22px;
-    display: flex;
-}
-
-.qr12 {
+.city img{
     border-radius: 10px;
-    margin: 0px 0px 10px 20px;
+}
+.pocket{
+    margin: 30px 0px 0px 50px;
+}
+p{
+    font-size: 17px;
+}
+.scanner{
+    border: 2px solid black;
+    width: 1250px;
+    position: relative;
+    left: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: palevioletred;
+    padding: 15px 0px 10px 40px;
+    height: 400px;
+}
+.margin{
+    margin-left: 220px;
+    font-size: 25px;
+}
+h2{
+    font-size: 30px;
+    font-weight: 20px;
+}
+.app{
+    position: relative;
+    bottom: 510px;
+    left: 50px;
+}
+.google{
+    position: relative;
+    bottom: 450px;
+    left: 80px;
+}
+.qr{
+    position: relative;
+    bottom: 600px;
+    right: 350px;
+}
+.mobile{
+    position: relative;
+    bottom: 440px;
+    left: 110px;
+    margin: 0px;
+    padding: 0px;
 }
